@@ -9,12 +9,23 @@ export default function HomePage() {
       </header>
       <main className="w-full">
         <h1 className="text-4xl font-bold text-center mb-8 text-primary tracking-tight">
-          Taskin Currency Converter
+          Currency Converter
+          <br />
+          <span>
+            by
+            <a href='taskin.studio' target='_blank' rel='noopener noreferrer' className='text-none' >
+              TaskIn Studio
+            </a>
+          </span>
         </h1>
         <CurrencyConverterCard />
       </main>
       <footer className="mt-12 text-center text-sm text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} TaskIn Studio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} 
+          <a href="https://taskin.studio" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">
+            TaskIn Studio. 
+          </a>
+          All rights reserved.</p>
         <p className="mt-1">
           Exchange rates provided by{' '}
           <a

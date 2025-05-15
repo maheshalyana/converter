@@ -1,5 +1,8 @@
-# Firebase Studio
+# Currency Converter App
 
-This is a NextJS starter in Firebase Studio.
+This is a simple web application built with Next.js that allows users to convert between different currencies. The application fetches real-time currency data to provide accurate conversion rates.
 
-To get started, take a look at src/app/page.tsx.
+## Setup and Running the Project
+
+1.  **Clone the repository:**
+

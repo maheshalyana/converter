@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { ArrowRightLeft } from 'lucide-react';
+import { ArrowUpDown } from 'lucide-react';
 import { useCurrencies, useExchangeRates } from '@/hooks/use-currency-data';
 import { CurrencyInput } from '@/components/currency-input';
 import { RateInfo } from '@/components/rate-info';
@@ -152,7 +152,7 @@ export function CurrencyConverterCard() {
 
         <div className="flex justify-center">
           <Button variant="ghost" size="icon" onClick={handleSwapCurrencies} aria-label="Swap currencies">
-            <ArrowRightLeft className="h-5 w-5 text-primary" />
+            <ArrowUpDown className="h-5 w-5 text-primary" />
           </Button>
         </div>
 
